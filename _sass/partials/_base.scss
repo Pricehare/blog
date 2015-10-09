@@ -26,6 +26,8 @@
 	@extend .title;
 }
 
+/* Items in post list */
+
 article {
 	margin-bottom: 40px;
 
@@ -45,22 +47,39 @@ article {
 
 }
 
-.page-number {
-	position: absolute;
-	height: 32px;
-	line-height: 32px;
-	width: 300px;
-	display: block;
-	left: 50%;
-	margin-left: -150px;
-	@extend .title;
-}
+/* Individual post */
 
 .post {
 
 	.post-header {
 		border-bottom: 1px solid $border-color;
 		margin-bottom: 40px;
+	}
+
+	.tagged-with {
+		@extend .plain-ul;
+		font-size: .875em;
+		overflow: hidden;
+		margin: 40px 0;
+
+		li {
+			float: left;
+			margin-right: 5px;
+			display: inline-block;
+			@include border(1px, $border-color, solid, $border-radius);
+			color: $grey;
+			padding: 5px 10px;
+
+			&.tagged-lead {
+				color: $text-color;
+				border: 0;
+				padding-left: 0;
+				padding-right: 0;
+				font-weight: 700;
+			}
+
+		}
+
 	}
 
 	h1 {
@@ -70,6 +89,26 @@ article {
 
 	.post-meta {
 		margin: 0;
+	}
+
+}
+
+/* Tag list */
+
+.tag-list {
+	@extend .plain-ul;
+
+	li {
+		margin-bottom: 20px;
+	}
+
+	.tagged-post-title {
+		display: block;
+	}
+
+	.tagged-post-pub-date {
+		display: block;
+		@extend .title;
 	}
 
 }

@@ -3,7 +3,7 @@
 -------------------------------------------------------- */
 
 .pagination {
-	margin: 20px 0 0 0;
+	margin: 0 0 40px 0;
 	position: relative;
 	text-align: center;
 	overflow: hidden;
@@ -31,4 +31,15 @@
 		float: right;
 	}
 
+}
+
+.page-number {
+	position: absolute;
+	height: 32px;
+	line-height: 32px;
+	width: 300px;
+	display: block;
+	left: 50%;
+	margin-left: -150px;
+	@extend .title;
 }

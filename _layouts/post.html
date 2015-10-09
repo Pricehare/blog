@@ -8,8 +8,19 @@ layout: default
 		<h1 class="post-title">{{ page.title }}</h1>
 	</div>
 
+	{% for tag in page.categories %}
+	<a href="/categories/#{{ tag }}">{{ tag }}</a>
+	{% endfor %}
+
 	{{ content }}
 
-	<div class="message generic" style="margin-top:40px;">Thanks for reading &bull; Share on <a href="">Twitter</a></div>
+	{% if page.tags %}
+	<ul class="tagged-with">
+		<li class="tagged-lead">Tagged with:</li>
+		{% for tag in page.tags %}
+		<li><a href="/tags/#{{ tag }}">{{ tag }}</a></li>
+		{% endfor %}
+	</ul>
+	{% endif %}
 
 </div>

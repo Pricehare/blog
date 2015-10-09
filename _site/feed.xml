@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>Pricehare blog</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Oct 2015 16:31:55 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2015 16:31:55 +0100</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Oct 2015 22:52:45 +0100</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2015 22:52:45 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Our third post</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -27,19 +27,19 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 09 Oct 2015 15:58:22 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/10/09/test.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/09/test.html</guid>
+        <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
+        <link>/2015/01/03/third-post/</link>
+        <guid isPermaLink="true">/2015/01/03/third-post/</guid>
         
+        <category>that</category>
         
-        <category>jekyll</category>
+        <category>another</category>
         
-        <category>update</category>
         
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Our second post</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -55,19 +55,17 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 09 Oct 2015 15:58:22 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/10/09/test.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/09/test.html</guid>
+        <pubDate>Fri, 02 Jan 2015 00:00:00 +0000</pubDate>
+        <link>/2015/01/02/second-post/</link>
+        <guid isPermaLink="true">/2015/01/02/second-post/</guid>
         
+        <category>this</category>
         
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Our first post</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -83,14 +81,14 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 09 Oct 2015 15:58:22 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/10/09/test.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/09/test.html</guid>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+        <link>/2015/01/01/first-post/</link>
+        <guid isPermaLink="true">/2015/01/01/first-post/</guid>
         
+        <category>this</category>
         
-        <category>jekyll</category>
+        <category>that</category>
         
-        <category>update</category>
         
       </item>
     
