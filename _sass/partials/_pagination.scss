@@ -1,0 +1,34 @@
+/* --------------------------------------------------------
+	PAGINATION
+-------------------------------------------------------- */
+
+.pagination {
+	margin: 20px 0 0 0;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+
+	.pagination-back,
+	.pagination-next {
+		display: inline-block;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		@include border(1px, $border-color, solid, $border-radius);
+		color: $grey;
+
+		&:hover {
+			color: $text-color;
+		}
+
+	}
+
+	.pagination-back {
+		float: left;
+	}
+
+	.pagination-next {
+		float: right;
+	}
+
+}

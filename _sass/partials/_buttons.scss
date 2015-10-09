@@ -1,0 +1,81 @@
+/* --------------------------------------------------------
+	BUTTONS
+-------------------------------------------------------- */
+
+.bttn {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 30px;
+	border: 0;
+	border: 1px solid;
+	@include vendor(border-radius, $border-radius);
+
+	&.bttn-full {
+		display: block;
+	}
+
+	&:hover {
+		@include vendor(transition, all .2s ease-in-out);
+	}
+
+/* Blue */
+
+	&.bttn-blue {
+		border-color: $blue;
+		background: $blue;
+		color: white;
+
+		&:hover {
+			color: white;
+			border-color: darken($blue, 10%);
+			background: darken($blue, 10%);
+		}
+
+	}
+
+/* Green */
+
+	&.bttn-green {
+		border-color: $green;
+		background: $green;
+		color: white;
+
+		&:hover {
+			color: white;
+			border-color: darken($green, 10%);
+			background: darken($green, 10%);
+		}
+
+	}
+
+/* Red */
+
+	&.bttn-red {
+		border-color: $red;
+		color: $red;
+
+		&:hover {
+			color: white;
+			border-color: $red;
+			background: $red;
+		}
+
+	}
+
+/* Grey */
+
+	&.bttn-grey {
+		background: $grey;
+		border-color: $grey;
+		color: white;
+
+		&:hover {
+			color: white;
+			border-color: darken($grey, 10%);
+			background: darken($grey, 10%);
+		}
+
+	}
+}

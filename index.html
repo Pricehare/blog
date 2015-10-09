@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<article>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">Keep reading&hellip;</a>
+</article>
+
+{% else %}
+
+<div class="message generic">
+    <p>No posts could be found.</p>
+</div>
+
+{% endfor %}
+
+{% include pagination.html %}

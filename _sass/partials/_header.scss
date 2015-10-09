@@ -1,0 +1,54 @@
+/* --------------------------------------------------------
+	HEADER
+-------------------------------------------------------- */
+
+header {
+	position: relative;
+	background: $blue;
+
+	.width {
+		position: relative;
+		height: 60px;
+	}
+
+	.logo {
+		display: block;
+		padding-left: 110px;
+		height: 20px;
+		background-image: url(/img/ico-logo-text.png);
+		background-size: 102px;
+		background-position: left;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 50%;
+		margin-top: -10px;
+		color: white;
+		line-height: 28px;
+	}
+
+	.route-sign-in,
+	.route-sign-out {
+		position: absolute;
+		right: 20px;
+		border-color: $blue;
+		top: 0;
+		bottom: 0;
+		line-height: 60px;
+		padding: 0 20px;
+		background: darken($blue, 10%);
+	}
+
+}
+
+/* Sign In / Register */
+
+.sign-in-header {
+	background: white;
+	padding: 80px 0;
+
+	.logo {
+		@include vendor(animation, slideDown 800ms);
+		background-image: url(/img/ico-logo-text-blue.png);
+	}
+
+}

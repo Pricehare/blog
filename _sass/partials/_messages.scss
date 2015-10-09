@@ -1,0 +1,24 @@
+/* --------------------------------------------------------
+	MESSAGES
+-------------------------------------------------------- */
+
+.message {
+	@include vendor(border-radius, $border-radius);
+	text-align: center;
+	border-width: 1px;
+	display: block;
+
+	&.generic {
+		background: $light-grey;
+		@include border(1px, $border-color, solid, $border-radius);
+		padding: 10px;
+	}
+
+	&.success {
+		background: $green;
+		color: white;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+}

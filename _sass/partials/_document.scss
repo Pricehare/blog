@@ -1,0 +1,29 @@
+/* --------------------------------------------------------
+	DOCUMENT
+-------------------------------------------------------- */
+
+html {
+	background: white;
+	color: $text-color;
+	font-family: $font-family;
+	font-weight: $font-weight;
+	font-size: $font-size;
+	line-height: $line-height;
+
+    @media screen and (max-width:$breakpoint) {
+    	/* stuff */
+    }
+
+}
+
+.width {
+	width: $width;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+
+.content {
+	@extend .width;
+	padding: 40px 0;
+}

@@ -1,0 +1,75 @@
+/* --------------------------------------------------------
+	EXTENDS
+-------------------------------------------------------- */
+
+.box {
+	@include border(1px, $border-color, solid, $border-radius);
+}
+
+.plain-ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: .875em;
+	color: $grey;
+}
+
+/* --------------------------------------------------------
+	BLOG
+-------------------------------------------------------- */
+
+.post-meta {
+	@extend .title;
+}
+
+article {
+	margin-bottom: 40px;
+
+	h2 {
+		font-size: 1.25em;
+		margin: 10px 0 20px 0;
+
+		a {
+			color: $text-color;
+		}
+
+	}
+
+	.post-meta {
+		margin: 0;
+	}
+
+}
+
+.page-number {
+	position: absolute;
+	height: 32px;
+	line-height: 32px;
+	width: 300px;
+	display: block;
+	left: 50%;
+	margin-left: -150px;
+	@extend .title;
+}
+
+.post {
+
+	.post-header {
+		border-bottom: 1px solid $border-color;
+		margin-bottom: 40px;
+	}
+
+	h1 {
+		font-size: 1.25em;
+		margin: 10px 0 40px 0;
+	}
+
+	.post-meta {
+		margin: 0;
+	}
+
+}

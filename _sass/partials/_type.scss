@@ -1,0 +1,52 @@
+/* --------------------------------------------------------
+	TYPE
+-------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+
+	&.page-title {
+		text-align: center;
+		border-bottom: 1px solid $border-color;
+		padding: 0 0 40px 0;
+		margin: 0 0 40px 0;
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+
+}
+
+strong {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	cursor: pointer;
+
+	&:hover {
+		color: $text-color;
+	}
+
+}
+
+header {
+
+	.route-sign-in,
+	.route-sign-out  {
+		color: white;
+
+		&:hover {
+			color: $yellow;
+		}
+
+	}
+
+}
+
+.last-updated {
+	color: $grey;
+	font-style: italic;
+	font-size: .875em;
+}
