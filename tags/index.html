@@ -3,17 +3,18 @@ title: Categories
 layout: default
 ---
 
+<h1 class="page-title">Blog tags</h1>
+
 <div class="sidebar">
-	<h4>Tags</h4>
 	<ul class="">
 	{% assign tags_list = site.tags %}
 		{% if tags_list.first[0] == null %}
 		{% for tag in tags_list reversed %}
-			<li><span>({{ site.tags[tag].size }})</span> <a href="#{{ tag }}">{{ tag | capitalize }}</a></li>
+			<li><a href="#{{ tag }}">{{ tag | capitalize }}</a><span>({{ site.tags[tag].size }})</span></li>
 		{% endfor %}
 		{% else %}
 		{% for tag in tags_list reversed %}
-			<li><span>({{ tag[1].size }})</span> <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}</a></li>
+			<li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}</a><span>({{ tag[1].size }})</span></li>
 		{% endfor %}
 		{% endif %}
 	{% assign tags_list = nil %}

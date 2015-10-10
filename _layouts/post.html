@@ -8,10 +8,6 @@ layout: default
 		<h1 class="post-title">{{ page.title }}</h1>
 	</div>
 
-	{% for tag in page.categories %}
-	<a href="/categories/#{{ tag }}">{{ tag }}</a>
-	{% endfor %}
-
 	{{ content }}
 
 	{% if page.tags %}
@@ -22,5 +18,7 @@ layout: default
 		{% endfor %}
 	</ul>
 	{% endif %}
+
+	<div class="post-footer message generic"><a href="https://twitter.com/pricehare">Follow @pricehare</a></div>
 
 </div>
