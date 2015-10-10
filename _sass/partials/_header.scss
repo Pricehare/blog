@@ -24,6 +24,11 @@ header {
 		margin-top: -10px;
 		color: white;
 		line-height: 28px;
+
+		&:hover {
+			color: $yellow;
+		}
+
 	}
 
 	.route-sign-in,

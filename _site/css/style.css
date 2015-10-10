@@ -415,6 +415,8 @@ header {
     margin-top: -10px;
     color: white;
     line-height: 28px; }
+    header .logo:hover {
+      color: #fff570; }
   header .route-sign-in,
   header .route-sign-out {
     position: absolute;
@@ -452,11 +454,6 @@ footer ul {
   footer ul li {
     float: left;
     margin-right: 1em; }
-  footer ul a {
-    /*color: $grey;*/ }
-
-body.login footer .inner {
-  border: 0; }
 
 /* --------------------------------------------------------
 	BUTTONS
@@ -648,7 +645,7 @@ header .route-sign-out {
 /* --------------------------------------------------------
 	EXTENDS
 -------------------------------------------------------- */
-.box {
+.box, .sidebar {
   border-width: 1px;
   border-color: #cdd6e2;
   border-style: solid;
@@ -658,12 +655,12 @@ header .route-sign-out {
   -o-border-radius: 3px;
   border-radius: 3px; }
 
-.plain-ul, footer ul, .post .tagged-with, .tag-list {
+.plain-ul, footer ul, .post .tagged-with, .sidebar ul, .tag-list {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-.title, .page-number, .post-meta, .tag-list .tagged-post-pub-date {
+.title, .page-number, .post-meta, .sidebar span, .tag-list .tagged-post-pub-date {
   text-transform: uppercase;
   font-size: .875em;
   color: #9193a6; }
@@ -717,6 +714,21 @@ article {
   margin: 0; }
 
 /* Tag list */
+.sidebar {
+  width: 180px;
+  position: fixed;
+  padding: 20px; }
+  .sidebar h4 {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #cdd6e2; }
+
+.page-content {
+  padding-left: 260px;
+  margin-bottom: 40px; }
+  .page-content h3 {
+    margin: 0 0 20px 0; }
+
 .tag-list li {
   margin-bottom: 20px; }
 .tag-list .tagged-post-title {

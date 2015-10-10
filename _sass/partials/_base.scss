@@ -95,6 +95,38 @@ article {
 
 /* Tag list */
 
+.sidebar {
+	width: 180px;
+	position: fixed;
+	padding: 20px;
+	@extend .box;
+
+	h4 {
+		margin: 0 0 20px 0;
+		padding: 0 0 20px 0;
+		border-bottom: 1px solid $border-color;
+	}
+
+	ul {
+		@extend .plain-ul;
+	}
+
+	span {
+		@extend .title;
+	}
+
+}
+
+.page-content {
+	padding-left: 260px;
+	margin-bottom: 40px;
+
+	h3 {
+		margin: 0 0 20px 0;
+	}
+
+}
+
 .tag-list {
 	@extend .plain-ul;
 

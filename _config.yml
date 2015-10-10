@@ -11,4 +11,4 @@ markdown: kramdown
 # post settings
 permalink: /:year/:month/:day/:title/
 
-paginate: 2
+paginate: 5
