@@ -12,7 +12,8 @@ layout: default
 
 	{{ content }}
 
-	{% if page.tags %}
+	{% capture tags_length %}{{ page.tags | size }}{% endcapture %}
+	{% if tags_length != '0' %}
 	<ul class="tagged-with">
 		<li class="tagged-lead">Tagged with:</li>
 		{% for tag in page.tags %}

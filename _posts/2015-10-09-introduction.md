@@ -2,9 +2,7 @@
 layout: post
 title: Welcome
 author: Daniel
-tags:
-  announcement
-image: welcome.jpg
+image: welcome.png
 ---
 
 One thing everyone has been saying to me for a long time is 'you should right a blog about this stuff', so I finally have. This blog will cover all the money saving advice I can think of.

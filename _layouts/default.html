@@ -2,9 +2,13 @@
 <html>
 {% include head.html %}
 
-<body>
+<body{% if page.image %} class="has-post-image"{% endif %}>
 
     {% include header.html %}
+
+{% if page.image %}
+<div class="post-main-image" style="background-image: url(/img/post-images/{{ page.image }})"></div>
+{% endif %}
 
     <div class="content">
         {{ content }}

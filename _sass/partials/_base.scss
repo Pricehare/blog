@@ -49,10 +49,24 @@ article {
 
 /* Individual post */
 
+.post-main-image {
+	height: 400px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+
+	img {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+	}
+
+}
+
 .post {
+	background: white;
 
 	.post-header {
-		border-bottom: 1px solid $border-color;
 		margin-bottom: 40px;
 	}
 
@@ -60,7 +74,7 @@ article {
 		@extend .plain-ul;
 		font-size: .875em;
 		overflow: hidden;
-		margin: 40px 0;
+		margin: 40px 0 0 0;
 
 		li {
 			float: left;
@@ -102,9 +116,14 @@ article {
 	}
 
 	.post-footer {
-		margin-bottom: 40px;
+		margin: 40px 0;
 	}
 
+}
+
+body.has-post-image .post {
+	margin: -200px -40px 0 -40px;
+	padding: 40px;
 }
 
 /* Tag list */
