@@ -6,13 +6,13 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Oct 2015 12:31:28 +0100</pubDate>
-    <lastBuildDate>Sat, 10 Oct 2015 12:31:28 +0100</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2015 09:29:19 +0100</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2015 09:29:19 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>How to complain</title>
-        <description>&lt;p&gt;Complaining can seem like a daunting task. However follow some really simple rules and it should be easy, always remember if something is not up to your standard then your first port of call is to let the manufacturer know.&lt;/p&gt;
+        <description>&lt;p&gt;Complaining can seem like a daunting task, it needn’t be. If you follow some really simple rules it becomes much easier! Remember if something is not up to your standard then your first port of call is to let the manufacturer know.&lt;/p&gt;
 
 &lt;h3 id=&quot;research&quot;&gt;Research&lt;/h3&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;h3 id=&quot;follow-up&quot;&gt;Follow up&lt;/h3&gt;
 
-&lt;p&gt;This is probably my number one tip, if they aren’t giving you the answer you would like. Get the operators name and number and agree on a date when it will be resolved. If it hasn’t ring them up on that date and keep chasing…&lt;/p&gt;
+&lt;p&gt;This is probably my number one tip, if they aren’t giving you the answer you would like: Get the operators name and number and agree on a date when it will be resolved. If it hasn’t, ring them up on that date and keep chasing!&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 00:00:00 +0100</pubDate>
         <link>/2015/10/10/how-to-complain/</link>
@@ -47,21 +47,21 @@
     
       <item>
         <title>Welcome</title>
-        <description>&lt;p&gt;One thing everyone has been saying to me for a long time is ‘you should right a blog about this stuff’, so i’ve finally have. This blog will cover all the money saving advice I can think of.&lt;/p&gt;
+        <description>&lt;p&gt;One thing everyone has been saying to me for a long time is ‘you should right a blog about this stuff’, so I finally have. This blog will cover all the money saving advice I can think of.&lt;/p&gt;
 
 &lt;p&gt;The first tip I have is to use &lt;a href=&quot;http://pricehare.com&quot;&gt;Pricehare&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;So how did Pricehare come about? Well i’ve been working on it for a long time now, originally it was just a small script I run to let me know when the price of a chest of draws went down. It was from M&amp;amp;S and I know ever 6 weeks or so they run a 20% off promotion for furniture. Usually I will just check the website everyday, but I thought why should I do it when I can write a script to check for me.&lt;/p&gt;
+&lt;p&gt;So how did Pricehare come about? Well I’ve been working on it for a long time now, originally it was just a small script I ran to let me know when the price of a chest of draws I wanted dropped. It was from M&amp;amp;S and I know every 6 weeks or so they run a 20% off promotion for furniture. Usually I would just check the website every day, but I thought why should I do it when I can write a script to check for me.&lt;/p&gt;
 
-&lt;p&gt;One year later, a lot of improvements to the original algorithm and we’ve finally have something we think will be useful to other people.&lt;/p&gt;
+&lt;p&gt;One year later, a lot of improvements to the original algorithm and we finally have something we think will be useful to other people.&lt;/p&gt;
 
 &lt;p&gt;Hope it saves you lots of money!&lt;/p&gt;
-
-&lt;p&gt;Daniel&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Oct 2015 00:00:00 +0100</pubDate>
         <link>/2015/10/09/introduction/</link>
         <guid isPermaLink="true">/2015/10/09/introduction/</guid>
+        
+        <category>announcement</category>
         
         
       </item>

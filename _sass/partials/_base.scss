@@ -87,13 +87,18 @@ article {
 
 	}
 
-	h1 {
-		font-size: 1.25em;
-		margin: 10px 0 40px 0;
-	}
-
 	.post-meta {
 		margin: 0;
+	}
+
+	h1 {
+		font-size: 1.25em;
+		margin: 10px 0 0 0;
+	}
+
+	.post-author {
+		margin: 0 0 40px 0;
+		font-style: italic;
 	}
 
 	.post-footer {

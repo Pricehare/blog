@@ -707,11 +707,14 @@ article {
     .post .tagged-with li.tagged-lead {
       padding: 5px 0;
       font-weight: 700; }
-.post h1 {
-  font-size: 1.25em;
-  margin: 10px 0 40px 0; }
 .post .post-meta {
   margin: 0; }
+.post h1 {
+  font-size: 1.25em;
+  margin: 10px 0 0 0; }
+.post .post-author {
+  margin: 0 0 40px 0;
+  font-style: italic; }
 .post .post-footer {
   margin-bottom: 40px; }
 

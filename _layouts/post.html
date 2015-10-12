@@ -6,6 +6,8 @@ layout: default
 	<div class="post-header">
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 		<h1 class="post-title">{{ page.title }}</h1>
+		{% assign author = site.data.people[page.author] %}
+		<p class="post-author">by <a href="https://twitter.com/{{ author.twitter }}">{{ author.name }}</a></p>
 	</div>
 
 	{{ content }}
