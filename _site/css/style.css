@@ -536,7 +536,7 @@ html {
   position: relative; }
 
 .content {
-  padding: 40px 0 0 0; }
+  padding: 40px 40px 0 40px; }
 
 /* --------------------------------------------------------
 	TYPE
@@ -680,40 +680,58 @@ article {
     margin: 0; }
 
 /* Individual post */
-.post .post-header {
-  border-bottom: 1px solid #cdd6e2;
-  margin-bottom: 40px; }
-.post .tagged-with {
-  font-size: .875em;
+.post-main-image {
+  height: 400px;
   overflow: hidden;
-  margin: 40px 0; }
-  .post .tagged-with li {
-    float: left;
-    margin-right: 5px; }
-    .post .tagged-with li a {
-      display: block;
-      padding: 5px 10px;
-      border-width: 1px;
-      border-color: #cdd6e2;
-      border-style: solid;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-      -o-border-radius: 3px;
-      border-radius: 3px; }
-      .post .tagged-with li a:hover {
-        color: #1c7bf1;
-        border-color: #1c7bf1; }
-    .post .tagged-with li.tagged-lead {
-      padding: 5px 0;
-      font-weight: 700; }
-.post h1 {
-  font-size: 1.25em;
-  margin: 10px 0 40px 0; }
-.post .post-meta {
-  margin: 0; }
-.post .post-footer {
-  margin-bottom: 40px; }
+  background-size: cover;
+  background-position: center; }
+  .post-main-image img {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+
+.post {
+  background: white; }
+  .post .post-header {
+    margin-bottom: 40px; }
+  .post .tagged-with {
+    font-size: .875em;
+    overflow: hidden;
+    margin: 40px 0 0 0; }
+    .post .tagged-with li {
+      float: left;
+      margin-right: 5px; }
+      .post .tagged-with li a {
+        display: block;
+        padding: 5px 10px;
+        border-width: 1px;
+        border-color: #cdd6e2;
+        border-style: solid;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px; }
+        .post .tagged-with li a:hover {
+          color: #1c7bf1;
+          border-color: #1c7bf1; }
+      .post .tagged-with li.tagged-lead {
+        padding: 5px 0;
+        font-weight: 700; }
+  .post .post-meta {
+    margin: 0; }
+  .post h1 {
+    font-size: 1.25em;
+    margin: 10px 0 0 0; }
+  .post .post-author {
+    margin: 0 0 40px 0;
+    font-style: italic; }
+  .post .post-footer {
+    margin: 40px 0; }
+
+body.has-post-image .post {
+  margin: -240px -40px 0 -40px;
+  padding: 40px; }
 
 /* Tag list */
 .sidebar {
