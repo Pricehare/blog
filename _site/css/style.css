@@ -398,47 +398,32 @@ th {
 -------------------------------------------------------- */
 header {
   position: relative;
-  background: #1c7bf1; }
+  border-bottom: 1px solid #cdd6e2; }
   header .width, header .content {
     position: relative;
     height: 60px; }
   header .logo {
     display: block;
-    padding-left: 110px;
+    width: 102px;
     height: 20px;
-    background-image: url(/img/ico-logo-text.png);
+    background-image: url(/img/ico-logo-text-blue.png);
     background-size: 102px;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     margin-top: -10px;
-    color: white;
-    line-height: 28px; }
+    left: 50%;
+    margin-left: -51px; }
     header .logo:hover {
       color: #fff570; }
-  header .route-sign-in,
-  header .route-sign-out {
+  header .rss {
     position: absolute;
     right: 20px;
-    border-color: #1c7bf1;
     top: 0;
     bottom: 0;
     line-height: 60px;
-    padding: 0 20px;
-    background: #0d63cd; }
-
-/* Sign In / Register */
-.sign-in-header {
-  background: white;
-  padding: 80px 0; }
-  .sign-in-header .logo {
-    -webkit-animation: slideDown 800ms;
-    -moz-animation: slideDown 800ms;
-    -ms-animation: slideDown 800ms;
-    -o-animation: slideDown 800ms;
-    animation: slideDown 800ms;
-    background-image: url(/img/ico-logo-text-blue.png); }
+    padding: 0 20px; }
 
 /* --------------------------------------------------------
 	FOOTER
@@ -740,8 +725,8 @@ article {
   .post .post-meta {
     margin: 0; }
   .post h1 {
-    font-size: 1.25em;
-    margin: 10px 0 0 0; }
+    font-size: 2em;
+    margin: 20px 0; }
   .post .post-author {
     margin: 0 0 40px 0;
     font-style: italic; }
