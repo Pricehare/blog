@@ -33,11 +33,9 @@ header {
 
 	.rss {
 		position: absolute;
+		top: 50%;
+		margin-top: -16px;
 		right: 20px;
-		top: 0;
-		bottom: 0;
-		line-height: 60px;
-		padding: 0 20px;
 	}
 
 }
