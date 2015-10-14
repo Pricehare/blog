@@ -1,3 +1,7 @@
+{% capture length %}{{  site.posts.size }}{% endcapture %}
+{% capture pagination_setting %}{{ site.paginate }}{% endcapture %}
+
+{% if length > pagination_setting %}
 <div class="pagination">
 	{% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}" class="pagination-back">Previous Page</a>
@@ -9,3 +13,4 @@
 	<a href="{{ paginator.next_page_path }}" class="pagination-next">Next Page</a>
 	{% endif %}
 </div>
+{% endif %}

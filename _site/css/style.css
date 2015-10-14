@@ -551,6 +551,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
     text-transform: uppercase; }
 
+.hero {
+  text-align: center;
+  padding: 40px 0 80px 0;
+  border-bottom: 1px solid #cdd6e2;
+  margin-bottom: 40px; }
+  .hero.post--hero {
+    margin: 0;
+    border: 0; }
+  .hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 200; }
+  .hero h2 {
+    font-size: 1.125em;
+    color: #9193a6;
+    font-weight: 400;
+    margin: 40px 0 0 0; }
+  .hero em {
+    color: #3a4351; }
+
 strong {
   font-weight: 700; }
 
