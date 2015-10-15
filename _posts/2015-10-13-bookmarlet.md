@@ -3,7 +3,7 @@ layout: post
 title: Bookmarklet
 author: Daniel
 image: complain.jpeg
-published: false
+published: true
 tags:
   Bookmarklet
 ---
