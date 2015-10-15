@@ -11,4 +11,6 @@ We've made an easy way to save money online even easier! Introducing the new [Pr
 
 You can find more information and how to install on our [bookmarklet page](http://pricehare.com/bookmarklet).
 
-<img src="http://www.pricehare.com/img/browser-bookmarklet.png" />
+<p style="text-align: center">
+<img src="http://www.pricehare.com/img/browser-bookmarklet.png" width="640px" />
+</p>
