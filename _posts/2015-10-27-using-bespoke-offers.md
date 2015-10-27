@@ -9,7 +9,7 @@ tags:
     Bespoke Offers
 ---
 
-**Update** I published this article on the same day the service closes - lol!
+**Update** Bespoke offers has closed unexpectedly today.
 
 [Bespoke Offers](https://www.bespokeoffers.co.uk) a website with a simple message, enter an item you want and they will find you a lower price.
 
