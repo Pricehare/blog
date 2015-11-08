@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bespoke Offers Review
-author: daniel
+author: Daniel
 published: true
 tags:
     Offers
