@@ -24,6 +24,7 @@ Go and get a cup of tea Pricehare will keep an eye on your product for you and l
 
 To make it even easier i've created a video.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/GNlQQvCN2e0" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/GNlQQvCN2e0" frameborder="0" allowfullscreen></iframe>
 
 
