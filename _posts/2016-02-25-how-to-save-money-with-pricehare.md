@@ -1,9 +1,13 @@
 ---
 layout: post
 categories: null
-published: false
+published: true
 title: How to save money with Pricehare
+description: Saving money with pricehare
+keywords: "pricehare, getting start, save money"
+twitterimage: ""
 ---
+
 
 Pricehare is a great tool for saving money on the things you want, but don't need right now.
 
@@ -20,7 +24,5 @@ Go and get a cup of tea Pricehare will keep an eye on your product for you and l
 
 To make it even easier i've created a GIF.
 
-![signup.gif]({{site.baseurl}}/_posts/signup.gif)
-
-
+![signup.gif]({{site.baseurl}}/media/signup.gif)
 
