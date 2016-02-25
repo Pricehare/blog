@@ -22,7 +22,8 @@ To make this even easier have a look at our [bookmarklet](https://www.pricehare.
 ## Step 3 - Wait
 Go and get a cup of tea Pricehare will keep an eye on your product for you and let you know when the price drops.
 
-To make it even easier i've created a GIF.
+To make it even easier i've created a video.
 
-![signup.gif]({{site.baseurl}}/media/signup.gif)
+<iframe width="420" height="315" src="https://www.youtube.com/embed/GNlQQvCN2e0" frameborder="0" allowfullscreen></iframe>
+
 
