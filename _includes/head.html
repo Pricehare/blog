@@ -4,7 +4,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	
+	<!-- SEO stuff -->
+	  {% if page.description %}
+	      <meta name="description" content="{{ page.description }}">
+	  {% else %}
+	      <meta name="description" content="{{ page.content | strip_html | truncatewords: 25 }}">
+	  {% endif %}
+	  
+	  <!-- twitter card -->
+	  <meta name="twitter:card" content="summary">
+	  <meta name="twitter:url" content="http://dtsn.me{{ page.url }}">
+	  <meta name="twitter:title" content="{{ page.title }}">
+	  <meta name="twitter:site" content="dtsn">
+	  <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 25 }} ">
+	  {% if page.twitterimage %}
+	  <meta name="twitter:image" content="{{page.twitterimage}}">
+	  {% endif %}
+	
+	  {% if page.keywords %}
+	      <meta name="keywords" content="{{ page.keywords }}">
+	  {% else if page.tags %}
+	      <meta name="keywords" content="{{ page.tags | join: ',' }}">
+	  {% else %}
+	      <meta name="keywords" content="Pricehare, save money, money saving tips, money expert, money, tracking"> 
+	  {% endif %}
+	
+	
+	
+	
 	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
