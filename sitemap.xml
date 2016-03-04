@@ -25,13 +25,4 @@ layout:
   </url>
   {% endfor %}
 
-  {% for page in site.pages %}
-  <url>
-    <loc>https://blog.pricehare.com{{ page.url }}</loc>
-    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
-    {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
-    {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
-  </url>
-  {% endfor %}
-
 </urlset>
