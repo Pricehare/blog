@@ -14,12 +14,12 @@
 	  
 	  <!-- twitter card -->
 	  <meta name="twitter:card" content="summary">
-	  <meta name="twitter:url" content="{{ page.url }}">
+	  <meta name="twitter:url" content="{{site.url}}{{ page.url }}">
 	  <meta name="twitter:title" content="{{ page.title }}">
 	  <meta name="twitter:site" content="pricehare">
 	  <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 25 }} ">
 	  {% if page.twitterimage %}
-	  <meta name="twitter:image" content="{{site.siteurl}}{{page.twitterimage}}">
+	  <meta name="twitter:image" content="{{site.url}}{{page.twitterimage}}">
 	  {% endif %}
 	
 	  {% if page.keywords %}
