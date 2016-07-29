@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Save £39 on Dyson Cool Link fan
-twitterimage: /media/pablo.png
+twitterimage: /media/dyson-cool-link.jpg
 description: Save £39 at John Lewis on the Dyson Cool Link fan using their price matching
 keywords: 'Dyson, John Lewis, pricematch, price match, never knowingly undersold, fan'
 page-image: /media/pablo.png
@@ -21,3 +21,4 @@ In this case I found the product at [Donaghy Bros](https://donaghybros.co.uk) ba
 Total amount saved **£39.50**, amount of time **5 minutes**.
 
 __The large fan is also available for £439.99__
+
