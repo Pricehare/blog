@@ -19,3 +19,5 @@ The secret to [John Lewis](http://johnlewis.com) is thier [price match](https://
 In this case I found the product at [Donaghy Bros](https://donaghybros.co.uk) based in Northen Ireland who sell the fan at £304.50. I've personally never heard of them, but John Lewis accepteded the price match and I can pick it up tomorrow with there click and collect service, perfect for the rainy weekend.
 
 Total amount saved **£39.50**, amount of time **5 minutes**.
+
+__The large fan is also available for £439.99__
