@@ -5,10 +5,8 @@ title: Save £39 on Dyson Cool Link fan
 twitterimage: /media/pablo.png
 description: Save £39 at John Lewis on the Dyson Cool Link fan using their price matching
 keywords: 'Dyson, John Lewis, pricematch, price match, never knowingly undersold, fan'
-categories: ''
+page-image: /media/pablo.png
 ---
-![pablo.png]({{site.baseurl}}/media/pablo.png)
-
 We are now in the full swing of summer (though it's raining outside). Today I've tasked myself with finding one of the best fans on the market, the [Dyson Cool Link Desk Fan](http://www.johnlewis.com/dyson-pure-cool-link-purifying-desk-fan/p2649608) for the best price possible.
 
 This fan normally retails around the £350 mark, I know, it's a lot for a fan! But it's promising lots of cool features, including smart phone control. The Dyson fans have lots of great reviews and I personally love their design.
