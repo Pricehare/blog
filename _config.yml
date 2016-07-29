@@ -13,7 +13,7 @@ paginate: 5
 
 prose:
   rooturl: '_posts'
-  siteurl: http://blog.pricehare.com'
+  siteurl: https://blog.pricehare.com'
   media: 'media'
   ignore:
     - index.md
