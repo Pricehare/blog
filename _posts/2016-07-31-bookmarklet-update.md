@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Bookmarklet Update
 ---
 For those of you that use our [bookmarklet](https://pricehare.com/bookmarklet) to add items to Pricehare today we released a crucial update whereby the bookmarklet would of not worked with sites which you are browsing over SSH. Please make sure you update your bookmarklet.
